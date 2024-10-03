@@ -1,0 +1,75 @@
+
+#centerDiv {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    width: 80%;
+    text-align: center;
+}
+
+#leftAllignedText {
+    text-align: left;
+}
+
+#questionP {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding-top: 0px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 25px;
+    box-shadow: 5px 5px darkgrey;
+    white-space: nowrap;
+    min-width: fit-content;
+    overflow: clip;
+    overflow-clip-margin: padding-box;
+}
+
+/*
+.rectanglecircle {
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: large;
+    background-color: rgba(226, 219, 219, 0.433);
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nextQuest {
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: large;
+    background-color: rgba(226, 219, 219, 0.433);
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.3;
+}
+
+*/
+
+
+.rectanglecircle {
+    width: 100%;
+    border-radius: 10px;
+    font-size: medium;
+    height: 40px;
+}
+
+
+#nextQuest {
+    width: 100%;
+    border-radius: 10px;
+    font-size: medium;
+    height: 40px;
+}
+
+
+#describAnswer {
+    display: none;
+}
+
