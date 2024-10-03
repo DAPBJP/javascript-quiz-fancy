@@ -5,7 +5,7 @@
 const buttonTrue = document.getElementById("trueButton");
 const buttonFalse = document.getElementById("falseButton");
 const answerToQuest = document.getElementById("describAnswer");
-const nextQuestion = document.getElementById("nextQuest");
+const nextQuestion = document.getElementById("nextQuest"); 
 let counterQuestions = document.getElementById("counterOfQuestions");
 let questionPara = document.getElementById("questionParagraph");
 let goodQuestions = document.getElementById("correctCounter");
@@ -18,7 +18,8 @@ const firstAnswer = "Brendan Eich created JS at Netscape in 1995. The initial ve
 const javascriptQuestions = ["Strings in JS are editable values",
     "1 + 1 === 2",
     " '1' + '1' === '2' ",
-    " typeof ['J', 'S'] === 'array' "];
+    " typeof ['J', 'S'] === 'array' "
+];
 
 const realAnswers = ["In JavaScript strings are immutable values, meaning they cannot be edited; however, they can replaced with new, different strings."
     ,"The plus operator gives the sum of two numbers."
@@ -127,6 +128,3 @@ nextQuestion.addEventListener("click", () => {
         nextQuestion.disabled = true;
         answerToQuest.style.display = "none";
 });
-
-
-
